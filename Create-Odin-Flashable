@@ -1,0 +1,5 @@
+tar -H ustar -c aboot.mbn boot.img recovery.img cache.img.ext4 system.img.ext4 sbl1.mbn rpm.mbn tz.mbn sdi.mbn NON-HLOS.bin modem.bin > BPA1_CQI2-Hybrid-FullFirmware.tar
+
+md5sum -t BPA1_CQI2-Hybrid-FullFirmware.tar >> BPA1_CQI2-Hybrid-FullFirmware.tar
+
+mv BPA1_CQI2-Hybrid-FullFirmware.tar BPA1_CQI2-Hybrid-FullFirmware.tar.md5
